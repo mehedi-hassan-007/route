@@ -1,0 +1,19 @@
+.nav {
+    color: green;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.navLink{
+    color: blue;
+    text-decoration: none;
+    margin: 1rem;
+}
+.navLink:hover{
+    color: red;
+}
+nav.active{
+    color: yellow;
+}
