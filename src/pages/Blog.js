@@ -21,9 +21,9 @@ const Blog = () => {
                     return <article key={id}>
                         <h3>{title}</h3>
                         <p>{truncatestring(body, 100)}</p>
-                        <Link to={title}>Learn more</Link>
+                        <Link to={title} state= {{id, title, body}}>Learn more</Link>
                     </article>
-                })}
+                })}   
             </section>
         </div>
     );
